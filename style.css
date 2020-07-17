@@ -33,6 +33,7 @@ figcaption {
     font-style: italic;
     padding-top: 8px;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .copyright {
