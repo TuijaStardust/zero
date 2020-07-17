@@ -1,0 +1,107 @@
+/* VARIABLES*/
+
+:root {
+    --base-color: #f5f5f5;
+    --main-background: #cfdfaf;
+    --passepartout: #ffffff;
+    --link-color: #000000;
+}
+
+/* TYPOGRAPHY */
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    font-size: 1rem;
+    float: right;
+    padding: 4px 0;
+}
+
+li {
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 4px;
+    color: var(--link-color);
+    font-weight: 600;
+}
+
+/* OTHER ELEMENTS */
+
+body {
+    background-color: var(--base-color);
+    margin: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: var(--main-background);
+    padding: 10px 0;
+}
+
+hr {
+    width: 260px;   
+}
+
+/* IMAGE AREA */
+#img-div {
+    background-color: var(--passepartout);
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* INFO SECTION */
+
+#tribute-info {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    line-height: 2.6rem;
+    text-align: left;
+}
+
+/* FOOTER LINK */
+
+#footer-link {
+    padding-top: 10px;
+}
